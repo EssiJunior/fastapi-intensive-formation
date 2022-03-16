@@ -1,0 +1,17 @@
+Host ->
+ec2-34-224-226-38.compute-1.amazonaws.com
+
+Database ->
+d24dt991q7ndc6
+
+User ->
+srpnzxaiqooybh
+
+Port ->
+5432
+
+Password ->
+32db0787c64933bede51da3c87f4f4108a246dce3255be5f0eb99f01ea35dfb1
+
+URL ->
+postgres://srpnzxaiqooybh:32db0787c64933bede51da3c87f4f4108a246dce3255be5f0eb99f01ea35dfb1@ec2-34-224-226-38.compute-1.amazonaws.com:5432/d24dt991q7ndc6
