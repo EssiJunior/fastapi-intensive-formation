@@ -62,8 +62,8 @@ jobs:
           push: true
           tags: ${{secrets.DOCKER_HUB_USERNAME}}/fastapi:latest
           
-      - name: run pytest
-        run: |
-          pip install pytest
-          pytest
+      #- name: run pytest
+      #  run: |
+      #    pip install pytest
+      #    pytest
       
