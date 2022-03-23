@@ -8,5 +8,14 @@ jobs:
     steps:
       - name: pulling git repo
         uses: actions/checkout@v2
-      - name: Say Hi
-        run: echo "Hello Essi"
+      - name: Install python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+      - name: update pip
+        run: python -m pip install --upgrade pip
+      - name: install dependencies
+      - name: run pytest
+        run: |
+          pip install pytest
+          pytest
