@@ -23,4 +23,4 @@ app.include_router(vote.router)
 
 @app.get("/")
 def root():                                 
-    return {"message": "Hello world from HEROKU THE REVENGE;)"}
+    return {"message": "Hello members of YOUTUBE-DEV team"}
